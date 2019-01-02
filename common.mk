@@ -87,6 +87,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
 
+# HWComposer
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/lib/hw/hwcomposer.sdm845.so:system/lib/hw/hwcomposer.sdm845.so  \
+    $(LOCAL_PATH)/prebuilts/lib64/hw/hwcomposer.sdm845.so:system/lib64/hw/hwcomposer.sdm845.so
+
 # IMS
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0
