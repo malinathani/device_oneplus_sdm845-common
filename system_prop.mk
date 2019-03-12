@@ -69,6 +69,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/system/etc/media_profiles_vendor.xml
 
+# Surfaceflinger
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_backpressure=1 \
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_max_cpu=4 \
