@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.swap.sh
+    init.swap.sh \
+    msm_irqbalance.conf
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
