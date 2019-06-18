@@ -55,7 +55,7 @@ CROSS_COMPILE_ARM32 = prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 9.0.3
+TARGET_KERNEL_CLANG_VERSION := 9.0.4
 
 # Platform
 # TARGET_BOARD_PLATFORM := sdm845
