@@ -66,8 +66,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    init.neutrino.rc \
-    init.neutrino.sh
+    init.target.rc
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
